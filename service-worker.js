@@ -7,7 +7,7 @@ const ASSETS_TO_CACHE = [
   '/Transaction History.html',
   '/style.css',
   '/manifest.json',
-  '/palmpay logo.webp'
+  '/V-Bank-App-.webp'
 ];
 
 // Install Service Worker

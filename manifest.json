@@ -10,25 +10,25 @@
   "background_color": "#0f0f12",
   "icons": [
     {
-      "src": "palmpay logo.webp",
+      "src": "V-Bank-App-.webp",
       "sizes": "192x192",
       "type": "image/webp",
       "purpose": "any"
     },
     {
-      "src": "palmpay logo.webp",
+      "src": "V-Bank-App-.webp",
       "sizes": "512x512",
       "type": "image/webp",
       "purpose": "any"
     },
     {
-      "src": "palmpay logo.webp",
+      "src": "V-Bank-App-.webp",
       "sizes": "192x192",
       "type": "image/webp",
       "purpose": "maskable"
     },
     {
-      "src": "palmpay logo.webp",
+      "src": "V-Bank-App-.webp",
       "sizes": "512x512",
       "type": "image/webp",
       "purpose": "maskable"
@@ -51,7 +51,7 @@
       "url": "/To Bank.html",
       "icons": [
         {
-          "src": "palmpay logo.webp",
+          "src": "V-Bank-App-.webp",
           "sizes": "192x192"
         }
       ]
@@ -63,7 +63,7 @@
       "url": "/Transaction History.html",
       "icons": [
         {
-          "src": "palmpay logo.webp",
+          "src": "V-Bank-App-.webp",
           "sizes": "192x192"
         }
       ]
