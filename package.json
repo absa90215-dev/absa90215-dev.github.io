@@ -1,7 +1,7 @@
 {
-  "name": "palmpay-banking-app",
+  "name": "v-rewards-banking",
   "version": "1.0.0",
-  "description": "Banking app with Paystack integration",
+  "description": "V Rewards Digital Banking Platform with Paystack integration",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

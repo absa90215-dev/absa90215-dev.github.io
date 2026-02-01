@@ -1,12 +1,12 @@
 {
-  "name": "PalmPay Mobile App",
-  "short_name": "PalmPay App",
-  "description": "A fast, secure banking dashboard with Paystack integration",
+  "name": "V Rewards Digital Banking",
+  "short_name": "V Rewards",
+  "description": "V Rewards - Fast, Secure Digital Banking and Rewards Platform",
   "start_url": "/?v=4",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "theme_color": "#7c3aed",
+  "theme_color": "#9B2F6C",
   "background_color": "#0f0f12",
   "icons": [
     {

@@ -1,12 +1,13 @@
-# PalmPay Banking App with Paystack Integration
+# V Rewards Digital Banking Platform
 
-A banking application with real-time bank account verification using Paystack API.
+A modern banking application with real-time bank account verification using Paystack API.
 
 ## Features
 
-- 💰 Balance management
+- 💰 Balance management with V Rewards
 - 💸 Money transfers with bank account verification
-- 📊 Transaction history
+- 📊 Transaction history and receipts
+- 🏆 Rewards program integration
 - 🌓 Dark/Light mode
 - ✅ Real-time account verification via Paystack
 - 🏦 Support for all Paystack banks + Fintech banks (OPay, PalmPay, Kuda, MoniePoint, Carbon)
@@ -49,9 +50,11 @@ The app will be available at `http://localhost:3000`
 ## API Endpoints
 
 ### GET /api/paystack/banks
+
 Fetches all Nigerian banks from Paystack.
 
 **Response:**
+
 ```json
 {
   "status": true,
@@ -74,9 +77,11 @@ Fetches all Nigerian banks from Paystack.
 ```
 
 ### POST /api/paystack/verify
+
 Verifies a bank account number for both Paystack banks and fintech banks.
 
 **Request Body:**
+
 ```json
 {
   "account_number": "0123456789",
@@ -85,6 +90,7 @@ Verifies a bank account number for both Paystack banks and fintech banks.
 ```
 
 **Response (Paystack Bank):**
+
 ```json
 {
   "status": true,
@@ -99,6 +105,7 @@ Verifies a bank account number for both Paystack banks and fintech banks.
 ```
 
 **Response (Fintech Bank):**
+
 ```json
 {
   "status": true,
@@ -114,6 +121,7 @@ Verifies a bank account number for both Paystack banks and fintech banks.
 ```
 
 **Supported Fintech Banks:**
+
 - OPay (code: 999992)
 - PalmPay (code: 999991)
 - MoniePoint (code: 50515)
@@ -158,4 +166,3 @@ Verifies a bank account number for both Paystack banks and fintech banks.
 ## License
 
 ISC
-

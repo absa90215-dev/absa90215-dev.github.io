@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Transaction Receipt</title>
+
+<style>
+  * {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+  }
+
+  body {
+    margin: 0;
+    background: linear-gradient(135deg, #e6004c, #c8003d);
+    display: flex;
+    justify-content: center;
+    padding: 30px 10px;
+  }
+
+  .receipt {
+    width: 360px;
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0,0,0,.25);
+  }
+
+  .header {
+    padding: 25px 20px 10px;
+    text-align: center;
+  }
+
+  .amount {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 5px;
+  }
+
+  .date {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+
+  .status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    background: #e8f9f0;
+    color: #1f9d55;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .status span {
+    width: 16px;
+    height: 16px;
+    background: #1f9d55;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+
+  .dashed {
+    border-top: 2px dashed #e6004c;
+    margin: 20px 0;
+  }
+
+  .details {
+    padding: 0 20px 20px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    font-size: 14px;
+  }
+
+  .label {
+    color: #888;
+  }
+
+  .value {
+    font-weight: 600;
+    color: #222;
+    text-align: right;
+    max-width: 180px;
+    word-wrap: break-word;
+  }
+
+  .footer {
+    background: #fff;
+    padding: 15px;
+    border-top: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-text {
+    font-size: 12px;
+    color: #444;
+  }
+
+  .app-btns img {
+    height: 28px;
+    margin-right: 5px;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="receipt">
+
+  <div class="header">
+    <div class="amount">₦100.00</div>
+    <div class="date">29 Jan 2026, 2:46 PM</div>
+
+    <div class="status">
+      <span>✓</span>
+      Successful transaction
+    </div>
+  </div>
+
+  <div class="dashed"></div>
+
+  <div class="details">
+    <div class="row">
+      <div class="label">Destination</div>
+      <div class="value">PALMPAY</div>
+    </div>
+
+    <div class="row">
+      <div class="label">Receiver account</div>
+      <div class="value">9042769211</div>
+    </div>
+
+    <div class="row">
+      <div class="label">Receiver</div>
+      <div class="value">ABDULSALAM ADEDAYO TIAMIYU</div>
+    </div>
+
+    <div class="row">
+      <div class="label">Sender</div>
+      <div class="value">ABDULSALAM TIAMIYU</div>
+    </div>
+
+    <div class="row">
+      <div class="label">Reference number</div>
+      <div class="value">
+        09011026012914464825<br/>
+        3837931184
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="label">Remark</div>
+      <div class="value">Trf</div>
+    </div>
+
+    <div class="row">
+      <div class="label">Routing code</div>
+      <div class="value">100033</div>
+    </div>
+  </div>
+
+  <div class="dashed"></div>
+
+  <div class="footer">
+    <div class="footer-text">
+      Download the <strong>VBank App</strong><br/>
+      to get started
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
